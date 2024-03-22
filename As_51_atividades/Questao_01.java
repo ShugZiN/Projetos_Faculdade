@@ -23,9 +23,10 @@ public class Questao_01 {
     	System.out.println("Esta nota é invalida: " +nota+ " , Digite outra nota!");
     	
     }
-    	
+    
     	
     }while(!notaV);
     }
+    
 }
     
