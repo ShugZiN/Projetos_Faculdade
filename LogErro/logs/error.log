@@ -1,0 +1,21 @@
+mai. 27, 2024 3:46:14 PM logerro main
+GRAVE: An error occurred
+java.lang.Exception: Simulated exception
+	at logerro.main(logerro.java:20)
+
+mai. 27, 2024 3:57:16 PM Errologg main
+GRAVE: Failed to read directory: D:\Pasta a\Projetos vs code\.vscode\Logerro
+java.nio.file.NoSuchFileException: D:\Pasta a\Projetos vs code\.vscode\Logerro
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsDirectoryStream.<init>(WindowsDirectoryStream.java:86)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newDirectoryStream(WindowsFileSystemProvider.java:541)
+	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:481)
+	at Errologg.main(Errologg.java:20)
+
+mai. 27, 2024 5:09:37 PM logerro main
+GRAVE: An error occurred
+java.lang.Exception: Simulated exception
+	at logerro.main(logerro.java:20)
+
