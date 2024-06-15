@@ -1,0 +1,1 @@
+Você deve criar um sistema simples onde os usuários podem adicionar jogos à sua coleção, emprestar jogos e devolver jogos. O sistema deve tratar exceções para garantir que operações inválidas sejam devidamente tratadas.
