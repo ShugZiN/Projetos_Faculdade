@@ -37,7 +37,7 @@ class ValidadorUsuarioTest {
     @Test
     void testNomeValido() {
         assertTrue(validador.validarNomeUsuario("Otavio"));
-        assertTrue(validador.validarNomeUsuario("Ana"));
+        assertTrue(validador.validarNomeUsuario("Manu"));
     }
 
     @Test
