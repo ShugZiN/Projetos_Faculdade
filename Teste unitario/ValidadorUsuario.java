@@ -32,9 +32,7 @@ class ValidadorUsuarioTest {
         validador = new ValidadorUsuario();
     }
 
-    // =========================
-    // TESTES NOME
-    // =========================
+    // TESTES DE NOME
 
     @Test
     void testNomeValido() {
@@ -57,7 +55,7 @@ class ValidadorUsuarioTest {
         assertFalse(validador.validarNomeUsuario(null));
     }
 
-    // TESTES EMAIL
+    // TESTES DOS EMAIL
 
     @Test
     void testEmailValido() {
@@ -80,7 +78,7 @@ class ValidadorUsuarioTest {
         assertFalse(validador.validarEmail(null));
     }
 
-    // TESTES SENHA
+    // TESTES DAS SENHA
 
     @Test
     void testSenhaValida() {
